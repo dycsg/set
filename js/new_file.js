@@ -121,7 +121,7 @@ var huoqu2 = () => {
     //		$('.food_img').html("<img src=' "+ data[random] .img+" '      width=\"100%\" height=\"100%\">");
     $(".content1").html(randomHtml);
   });
-  t = setTimeout("huoqu2()", 95);
+  t = setTimeout("huoqu2()", 75);
 };
 
 $(".enter_btn").click(() => clearTimeout(t));
