@@ -104,10 +104,8 @@ var huoqu2 = () => {
     //显示处理后的数据
 
     let randomHtml =
-      `<img src='img/page3/1024_94.png' class='food_title'/><div class='food_img'>
-			<img src="` +
-      data[random].img +
-      `"  width='100%' height='100%'/></div>
+     
+      `</div>
 			<p class='shop_name'> ` +
       data[random].name +
       `</p>
@@ -121,7 +119,7 @@ var huoqu2 = () => {
     //		$('.food_img').html("<img src=' "+ data[random] .img+" '      width=\"100%\" height=\"100%\">");
     $(".content1").html(randomHtml);
   });
-  t = setTimeout("huoqu2()", 75);
+  t = setTimeout("huoqu2()", 50);
 };
 
 $(".enter_btn").click(() => clearTimeout(t));
