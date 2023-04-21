@@ -103,7 +103,9 @@ var huoqu2 = () => {
 
     //显示处理后的数据
 
-    let randomHtml =
+     let randomHtml =
+      `<img src='img/page3/1024_94.png' class='food_title'/><div class='food_img'>
+			` +
      
       `</div>
 			<p class='shop_name'> ` +
